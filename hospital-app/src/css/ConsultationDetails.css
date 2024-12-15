@@ -1,0 +1,113 @@
+/* ConsultationDetails.css */
+
+.consult-details {
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    width: 100%;
+    background-color: rgb(238, 238, 233);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.inner-box {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #fff; 
+    border: .5px solid #ccc; 
+    padding: 15px;
+    padding-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+}
+
+.consult-details h1 {
+    text-align: center;
+    color: #050505;
+    margin-bottom: 40px;
+}
+
+.consult-details h3 {
+    color: #333;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.consult-details p {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1rem;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.status-button-accept {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.status-button-accept button {
+    background-color: #318840;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.status-button-reject button {
+    background-color: #ca2d2d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.completed {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.completed button {
+    background-color: #0f65ac;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.status-button-accept button:hover {
+    background-color: #35503a;
+}
+
+.status-button-reject button:hover {
+    background-color: #bb5d5d;
+}
+
+.completed button:hover {
+    background-color: #5797cc;
+}
+
+.consultation-images {
+    margin-top: 10px;
+}
+
+.consultation-images h4 {
+    color: #080808;
+
+}
+
+.consultation-images img {
+    width: 50%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    gap: 30px;
+}

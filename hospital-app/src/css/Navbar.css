@@ -1,0 +1,84 @@
+/* Navbar.css */
+
+.navbar {
+    position: fixed;
+    background-color: #f9fafa;
+    padding: 10px 20px;
+    box-shadow: 0 1.5px 5px rgba(0, 0, 0, 0.1);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    margin: 0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+    margin: 0px;
+    padding: 12px;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar li.logout {
+    margin-left: auto; 
+}
+
+.navbar a {
+    color: rgb(26, 24, 24);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #eb9974;
+    text-decoration: none;
+}
+
+.navbar a.logout {
+    display: inline-block;
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a.logout:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar li:not(:last-child) {
+    margin-right: 15px;
+}
+
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+}

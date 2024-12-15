@@ -1,0 +1,152 @@
+/* Login.css */
+
+.login-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+
+.login-container h1 {
+    text-align: center;
+    color: #4caf50;
+    margin-bottom: 25px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* Form Groups */
+.login-form-group {
+    margin-bottom: 20px;
+}
+
+.login-form-group label {
+    font-size: 1rem;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.login-form-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+.login-form input,
+.login-form select,
+.login-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.login-form input:not([type="password"]) {
+    width: 100%;
+}
+
+
+.login-form-group input:focus {
+    outline: none;
+    border-color: #4caf50;
+    background-color: #fff;
+}
+
+/* Error messages */
+.login-form-group span {
+    color: #f44336;
+    font-size: 0.875rem;
+    margin-top: 5px;
+    display: block;
+}
+
+/* Show Password Checkbox */
+.password-input-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.password-input-wrapper input[type="password"],
+.password-input-wrapper input[type="text"] {
+    flex: 1;  
+    padding: 12px;
+    margin-right: 10px; 
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+.password-input-wrapper input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);  /* Optional: Make the checkbox slightly larger */
+}
+
+/* Label for Show Password */
+.password-input-wrapper span {
+    font-size: 1rem;
+    color: #555;
+    cursor: pointer;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* Login Button */
+.login-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.login-btn:hover {
+    background-color: #45a049;
+}
+
+/* Forgot Password */
+/* .forgot-password {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.forgot-password a {
+    color: #2196f3;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+} */
+
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-link a {
+    color: #2196f3;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
